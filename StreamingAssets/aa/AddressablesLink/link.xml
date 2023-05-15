@@ -88,6 +88,7 @@
     <type fullname="HealthUpgradeData" preserve="all" />
     <type fullname="HelperUpgradeData" preserve="all" />
     <type fullname="IAPUI" preserve="all" />
+    <type fullname="InGameAdManager" preserve="all" />
     <type fullname="IntegerData" preserve="all" />
     <type fullname="IronFactory" preserve="all" />
     <type fullname="IronFactoryStack" preserve="all" />
@@ -100,7 +101,10 @@
     <type fullname="JunkmanHome" preserve="all" />
     <type fullname="Level" preserve="all" />
     <type fullname="LevelManager" preserve="all" />
+    <type fullname="LoadingSceneManager" preserve="all" />
     <type fullname="Localization3D" preserve="all" />
+    <type fullname="LocalizationFontData" preserve="all" />
+    <type fullname="LocalizationManager" preserve="all" />
     <type fullname="LockAdAreaControl" preserve="all" />
     <type fullname="LookAtCamera" preserve="all" />
     <type fullname="LumberJack" preserve="all" />
@@ -164,6 +168,10 @@
     <type fullname="Skin3D" preserve="all" />
     <type fullname="SkinData" preserve="all" />
     <type fullname="SkinManager" preserve="all" />
+    <type fullname="Skyloft.AdManager" preserve="all" />
+    <type fullname="Skyloft.IAPManager" preserve="all" />
+    <type fullname="Skyloft.NotificationManager" preserve="all" />
+    <type fullname="Skyloft.RatingManager" preserve="all" />
     <type fullname="SoundData" preserve="all" />
     <type fullname="SoundHolder" preserve="all" />
     <type fullname="SoundIntervalGroupData" preserve="all" />
@@ -263,6 +271,8 @@
     <type fullname="UIKickStartSO/ResourceInfo" preserve="nothing" serialized="true" />
     <type fullname="WallData" preserve="nothing" serialized="true" />
     <type fullname="ZoneSpawnPoints" preserve="nothing" serialized="true" />
+    <type fullname="LocalizationFontData/FontDataInfo" preserve="nothing" serialized="true" />
+    <type fullname="LocalizationFontData/FontMatData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="NavMeshComponents, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshModifier" preserve="all" />
@@ -332,6 +342,7 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
@@ -373,6 +384,8 @@
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
